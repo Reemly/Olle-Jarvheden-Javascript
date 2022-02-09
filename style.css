@@ -1,0 +1,51 @@
+
+
+.wholesite {
+    background: rgb(86, 97, 160);
+}
+
+
+.headline{
+justify-content: space-evenly;
+align-items: flex-start;
+padding-bottom: 50px;
+}
+
+.discussionbox {
+padding: 0%;
+flex-direction: column;
+}
+
+.disc1 {
+    width: 800px;
+    height: 50px;
+    border: 3px black;
+    background-color: rgb(47, 108, 165) ;
+font-family: sans-serif;
+}
+.disc2 {
+    width: 800px;
+    height: 50px;
+    border: 1px;
+    background-color: rgb(47, 108, 165) ;
+    font-family: sans-serif;
+
+}
+.disc3 {
+    width: 800px;
+    height: 50px;
+    border: 1px;
+    background-color: rgb(47, 108, 165) ;
+    font-family: sans-serif;
+
+}
+.disc4 {
+    width: 800px;
+    height: 50px;
+    border: 1px;
+    background-color: rgb(47, 108, 165) ;
+    font-family: sans-serif;
+
+}
+
+
