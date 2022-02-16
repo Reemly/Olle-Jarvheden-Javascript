@@ -1,11 +1,11 @@
 
 body {
-    background: rgb(86, 97, 160);
-    display: flex;
-
+background: rgb(86, 97, 160);
+    
 }
 
 * {
+    text-decoration: none;
 
 padding: 0%;
 margin: 10px;
@@ -13,23 +13,41 @@ border: 0%;
 }
 
 a {
-    color: black;
+    color: rgb(255, 255, 255);
+    
 }
 
 .headline{
-flex-direction: column-reverse;
-padding-bottom: 50px;
+color: rgb(255, 255, 255);
+background-color: rgb(43, 83, 121);
+border: solid 3px rgb(37, 74, 114);
+width: 125px;
+height: auto;
+text-align: center;
+
 }
 
+.storepage {
+color: rgb(255, 255, 255);
+padding-bottom: 50px;
+background-color: rgb(43, 83, 121);
+border: solid 3px rgb(37, 74, 114);
+width: 150px;
+height: 1px;
+align-items: flex-end;
+text-align: center;
+
+}
+
+
+
 .director{
-    width: 800px;
-    height: 50px;
-    border: dotted 3px black;
-    background-color: rgb(47, 108, 165) ;
-    flex-direction: column;
-    font-size: 25px;
-    font-style: italic;
-    
+width: 800px;
+height: 200px;
+background-color: rgb(43, 83, 121);
+border: solid 3px rgb(37, 74, 114);
+font-size: 25px;
+
 }
 
 
