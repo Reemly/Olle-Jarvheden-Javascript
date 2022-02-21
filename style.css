@@ -14,17 +14,24 @@ border: 0%;
 
 a {
     color: rgb(255, 255, 255);
-    
+    background-color: rgb(43, 83, 121);
+    border: solid 3px rgb(37, 74, 114);
+    width: 75%;
 }
 
 .headline{
-color: rgb(255, 255, 255);
-background-color: rgb(43, 83, 121);
-border: solid 3px rgb(37, 74, 114);
-width: 125px;
-height: auto;
-text-align: center;
+display: flex;
+justify-content: space-between;
+width: 75%;
 
+
+}
+.gamename {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 83, 121);
+    border: solid 3px rgb(37, 74, 114);
+    width: auto;
+    height: 50%;
 }
 
 .storepage {
@@ -32,22 +39,23 @@ color: rgb(255, 255, 255);
 padding-bottom: 50px;
 background-color: rgb(43, 83, 121);
 border: solid 3px rgb(37, 74, 114);
-width: 150px;
-height: 1px;
-align-items: flex-end;
+width: auto;
+height: 0px;
 text-align: center;
-
 }
 
 
 
 .director{
-width: 800px;
-height: 200px;
-background-color: rgb(43, 83, 121);
-border: solid 3px rgb(37, 74, 114);
-font-size: 25px;
+width: 75%;
+height: 30%;
 
+font-size: 25px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+align-content: flex-start;
 }
 
 
