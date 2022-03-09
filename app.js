@@ -1,14 +1,14 @@
 let discussions = [
     {
-        name: "a",
+        name: "Pinecone Boss",
         link: "./discussion1.html"
     },
     {
-        name: "b",
+        name: "!!{[(Please read)]}!!",
         link: "./discussion2.html"
     },
     {
-        name: "c",
+        name: ">>In the new update<<",
         link: "./discussion3.html"
     },
     {

@@ -44,9 +44,31 @@ height: 0px;
 text-align: center;
 }
 
-.b {
+.DiscPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SteamDiscWin{
+    color: white;
+    background-color: rgb(43, 83, 121);
+    border: solid 3px rgb(37, 74, 114);
+    height: auto;
+    width: 50%;
 
 }
+
+
+.SteamDiscReply {
+    color: white;
+    background-color: rgb(77, 121, 161);
+    border: solid 3px rgb(37, 74, 114);
+    height: auto;
+    width: 40%;
+}
+
+
 
 .director{
 width: 75%;
