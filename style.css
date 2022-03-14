@@ -6,7 +6,6 @@ background: rgb(86, 97, 160);
 
 * {
     text-decoration: none;
-
 padding: 0%;
 margin: 10px;
 border: 0%;
@@ -26,6 +25,7 @@ width: 75%;
 
 
 }
+
 .gamename {
     color: rgb(255, 255, 255);
     background-color: rgb(43, 83, 121);
@@ -71,8 +71,6 @@ text-align: center;
 
 
 .director{
-width: 75%;
-height: 30%;
 
 font-size: 25px;
 display: flex;
@@ -81,6 +79,25 @@ justify-content: flex-end;
 align-items: flex-start;
 align-content: flex-start;
 }
+
+.rightside {
+    border: solid 3px rgb(37, 74, 114);
+    width: 50%;
+    background-color: white;
+    align-items: center;
+}
+
+.rightside img {
+    width: 100%;
+    margin: 0;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30% 70%; 
+}
+
 
 
 
