@@ -18,6 +18,14 @@ a {
     width: 75%;
 }
 
+p {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: flex-end;
+    /*bli inte sur sebbe snälla den ville inte bli centered om jag inte gjorde den till flex*/
+}
+
 .headline{
 display: flex;
 justify-content: space-between;
@@ -83,8 +91,10 @@ align-content: flex-start;
 .rightside {
     border: solid 3px rgb(37, 74, 114);
     width: 50%;
-    background-color: white;
+    color: white;
+    background-color: rgb(255,255,255);
     align-items: center;
+    
 }
 
 .rightside img {
@@ -97,8 +107,6 @@ main {
     display: grid;
     grid-template-columns: 30% 70%; 
 }
-
-
 
 
 
