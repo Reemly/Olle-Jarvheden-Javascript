@@ -12,11 +12,11 @@ let discussions = [
         link: "./discussion3.html"
     },
     {
-        name: "d",
+        name: "Open Post!",
         link: "./discussion4.html"
     },
     {
-        name: "e",
+        name: "Eeee",
         link: "./discussion5.html"
     }
 ];
